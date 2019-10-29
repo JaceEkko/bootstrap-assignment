@@ -1,0 +1,78 @@
+.Center{
+  display: flex;
+  justify-content: center;
+}
+
+.JumboBackground{
+  background-image: url("Images/Skeleton_fortnite.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-size: cover; */
+}
+.JumboMargin{
+  margin-top: 6vmin;
+  padding:5vmin 0 5vmin 0;
+}
+
+.btn-primary{
+  background-color: Orange;
+  border-color: Orange;
+}
+.btn-primary:hover{
+  background-color: Gray;
+  border-color: Gray;
+}
+.btn-secondary{
+  background-color: Orange;
+  border-color: Orange;
+}
+.btn-secondary:hover{
+  background-color: Gray;
+  border-color: Gray;
+}
+
+.ColImages{
+  width:95%;
+}
+
+.text-center{
+  display: flex;
+  justify-content: center;
+}
+
+.WiderPadding{
+padding-left: 0;
+  padding-right: 0;
+}
+
+h1{
+  color: Orange;
+  text-shadow: 1px 1px white;
+}
+h2{
+  color: White;
+  text-shadow: 1px 1px black;
+}
+h3{
+  color: White;
+  text-shadow: 1px 1px black;
+}
+h4{
+  color: White;
+  text-shadow: 1px 1px black;
+}
+
+p{
+  color: White;
+  text-shadow: 1px, 1px black;
+}
+
+body{
+  background-color: Grey;
+}
+
+@media screen and (min-width: 1200px){
+  .JumboBackground{
+    background-repeat: repeat-x;
+  }
+}
